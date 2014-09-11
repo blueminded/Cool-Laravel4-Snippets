@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[{{ Form::number('${1:name}', '${2:value}', ${3:['id'=>'${1:id}',${4:'class'=>'${5:my-class}'}]}) }}$0]]></content>
+    <tabTrigger>lformnumber</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

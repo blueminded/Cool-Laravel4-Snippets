@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[{{ Form::checkbox('${1:name}', '${2:value}', ${3:${4:true},['id'=>'${1:id}',${5:'class'=>'${6:my-class}'}]}) }}$0]]></content>
+    <tabTrigger>lformcheckbox</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

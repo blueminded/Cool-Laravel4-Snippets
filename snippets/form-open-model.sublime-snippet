@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[{{ Form::model(${1:$target}, ['name'=>'$2', 'id'=>'$2', '${3:url}'=>'${4:foo/bar}', 'method'=>'${5:post}']) }}$0]]></content>
+    <tabTrigger>lformmodel</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

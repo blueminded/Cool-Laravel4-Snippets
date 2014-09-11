@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[{{ Form::open(['name'=>'$1', 'id'=>'$1', '${2:url}'=>'${3:foo/bar}', 'method'=>'${4:post}', 'files' => true]) }}$0]]></content>
+    <tabTrigger>lformopenfile</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

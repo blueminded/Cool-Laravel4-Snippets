@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[{{ Form::file('${1:name}', ${2:['id'=>'${1:id}',${3:'class'=>'${4:my-class}'}]}) }}$0]]></content>
+    <tabTrigger>lformfile</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

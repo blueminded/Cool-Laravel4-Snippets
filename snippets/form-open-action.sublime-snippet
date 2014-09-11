@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[{{ Form::open(['name'=>'$1', 'id'=>'$1', 'action'=>['${2:Controller@method}','${3:vars}'], 'method'=>'${4:post}']) }}$0]]></content>
+    <tabTrigger>lformaction</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>
