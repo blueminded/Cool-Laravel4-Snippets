@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+{{ Form::open(['name'=>'$1', 'id'=>'$1', 'url'=>'${2:foo/bar}', 'method'=>'${3:post}']) }}
+  {{ Form::label('email', 'Email', ${4:['class'=>'${5:my-class}']}) }}
+  {{ Form::text('email', '', ${6:['id'=>'email',${7:'class'=>'${8:my-class}'}]}) }}
+  {{ Form::label('password', 'Password', ${9:['class'=>'${10:my-class}']}) }}
+  {{ Form::password('password', ${11:['id'=>'password',${12:'class'=>'${13:my-class}'}]}) }}
+  {{ Form::submit('Login', ${14:['id'=>'login',${15:'class'=>'${16:my-class}'}]}) }}
+{{ Form::close() }}
+
+$0]]></content>
+    <tabTrigger>lformlogin</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

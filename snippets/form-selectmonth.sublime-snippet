@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[{{ Form::selectMonth('${1:name}', '${2:month-selected(1-12)}',${3:['id'=>'$1', ${4:'class'=>'my-class'}]}) }}$0]]></content>
+    <tabTrigger>lformselectmonth</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

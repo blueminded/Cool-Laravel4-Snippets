@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[{{ Form::selectRange('${1:name}', ${2:value-1},${3:value-2},'${4:value-selected}',${5:['id'=>'$1', ${6:'class'=>'my-class'}]}) }}$0]]></content>
+    <tabTrigger>lformselectrange</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

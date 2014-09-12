@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[{{ Form::button('${1:name}', ${2:['id'=>'${3:id}',${4:'class'=>'${5:my-class}'}]}) }}$0]]></content>
+    <tabTrigger>lformbutton</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

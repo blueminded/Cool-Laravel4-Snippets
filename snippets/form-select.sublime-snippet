@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[{{ Form::select('${1:name}', ${2:['key'=>'value']}, '${3:key-selected}',${4:['id'=>'$1','class'=>'my-class']}) }}$0]]></content>
+    <tabTrigger>lformselect</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>
