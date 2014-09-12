@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[@extends('${1:layouts.${2:master}}')$0]]></content>
+    <tabTrigger>lextends</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

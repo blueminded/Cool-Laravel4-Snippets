@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[@stop$0]]></content>
+    <tabTrigger>lstop</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[@yield('${1:section}', ${2:'Default Content'});$0]]></content>
+    <tabTrigger>lyield</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

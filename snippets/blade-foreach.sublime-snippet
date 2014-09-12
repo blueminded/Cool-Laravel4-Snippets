@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+@foreach (${1:objects} as ${2:object})
+  $3
+@endforeach
+$0]]></content>
+    <tabTrigger>lforeach</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

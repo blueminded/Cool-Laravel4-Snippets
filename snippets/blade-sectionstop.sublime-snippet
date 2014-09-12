@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+@section('${1:section-name}')
+  ${2:@parent}
+  ${3:<!--section content-->}
+@stop
+$0]]></content>
+    <tabTrigger>lsectionstop</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

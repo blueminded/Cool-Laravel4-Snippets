@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+@if(${1:condition})
+  $2
+@else
+  $3
+@endif
+$0]]></content>
+    <tabTrigger>lifelse</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

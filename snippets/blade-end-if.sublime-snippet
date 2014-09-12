@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[@endif$0]]></content>
+    <tabTrigger>lendif</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

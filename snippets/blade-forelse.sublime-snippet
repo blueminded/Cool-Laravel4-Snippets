@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+@forelse (${1:objects} as ${2:object})
+  $3
+@empty
+  $4
+@endforelse
+$0]]></content>
+    <tabTrigger>lforelse</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

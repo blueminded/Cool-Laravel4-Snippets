@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+@while (${1:condition})
+  $2
+@endwhile
+$0]]></content>
+    <tabTrigger>lwhile</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>
