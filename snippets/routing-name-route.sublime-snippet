@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[Route::currentRouteName();$0]]></content>
+    <tabTrigger>lnameroute</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[Route::${1:get}('${2:route-name}', array('${3:before/after}' => '${4:filters}', 'uses' => '${5:Controller}@${6:function}'));$0]]></content>
+    <tabTrigger>lroutefiltercontroller</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

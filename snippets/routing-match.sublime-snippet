@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[Route::match([${1:'GET', 'POST'}], '${2:/{id?}}', function(${3:id=null})
+{
+    ${4:return ${5:'Hello World'}};
+});$0]]></content>
+    <tabTrigger>lroutematch</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

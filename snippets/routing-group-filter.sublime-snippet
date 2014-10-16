@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[Route::group(['${1:before/after}'=>'${2:filter-name}'], function()
+{
+    ${3://add your routes here}
+});$0]]></content>
+    <tabTrigger>lroutegroupfilter</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

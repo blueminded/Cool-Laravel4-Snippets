@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[@choice('${1:language.line}', ${2:1})$0]]></content>
+    <tabTrigger>lchoice</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

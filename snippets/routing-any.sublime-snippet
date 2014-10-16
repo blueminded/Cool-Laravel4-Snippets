@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[Route::any('${1:/{id?}}', function(${2:id=null})
+{
+    ${3:return ${4:'Hello World'}};
+});$0]]></content>
+    <tabTrigger>lrouteany</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

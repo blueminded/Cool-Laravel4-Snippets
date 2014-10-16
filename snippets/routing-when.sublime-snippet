@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[Route::when('${1:route-name/*}', '${2:filter-name}', ['${3:post}']);$0]]></content>
+    <tabTrigger>lroutewhen</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

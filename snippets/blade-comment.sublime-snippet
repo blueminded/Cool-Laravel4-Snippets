@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[{{-- ${1:This comment will not be in the rendered HTML} --}}$0]]></content>
+    <tabTrigger>lcomment</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

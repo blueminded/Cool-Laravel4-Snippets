@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[Route::${1:get}('${2:route-name}', ['as'=>'${3:route-rename}', 'uses'=>'${4:Controller}@${5:method}']);$0]]></content>
+    <tabTrigger>lroutenamedcontroller</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

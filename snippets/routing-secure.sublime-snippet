@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[Route::${1:get}('${2:route-name/{id?}}',['https', function(${3:id=null})
+{
+    ${4:return ${5:'Must be over HTTPS'};}
+}]);$0]]></content>
+    <tabTrigger>lroutesecure</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>
+
+Route::get('foo', array('https', function()
+{
+    return 'Must be over HTTPS';
+}));

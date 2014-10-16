@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[Route::${1:get}('${2:route-name/{value?}}', function(${3:id=null})
+{
+    ${4:return ${5:'Hello World'}};
+});$0]]></content>
+    <tabTrigger>lroute</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[@lang('${1:language.line}')$0]]></content>
+    <tabTrigger>llang</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

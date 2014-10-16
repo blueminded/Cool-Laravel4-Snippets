@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[Route::filter('${1:filter-name}', function(${2:route,request,value})
+{
+    ${3://your code here}
+    return ${4:action/value};
+});$0]]></content>
+    <tabTrigger>lroutefilter</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>
