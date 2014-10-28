@@ -6,8 +6,3 @@
     <tabTrigger>lroutesecure</tabTrigger>
     <scope>source.php, text.html</scope>
 </snippet>
-
-Route::get('foo', array('https', function()
-{
-    return 'Must be over HTTPS';
-}));

@@ -1,0 +1,6 @@
+<snippet>
+    <content>
+        <![CDATA[return Response::make('${1:content}')->withCookie(${2:cookie});$0]]></content>
+    <tabTrigger>lresponsecookie</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

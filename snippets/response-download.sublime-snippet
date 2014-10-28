@@ -1,0 +1,6 @@
+<snippet>
+    <content>
+        <![CDATA[return Response::download(${1:pathToFile}${2:,${3:name}, ${4:headers}});$0]]></content>
+    <tabTrigger>lresponsedownload</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

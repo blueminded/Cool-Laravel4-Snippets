@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+        <![CDATA[
+${1:response} = Response::make(${2:some text here}, ${3:statusCode});
+${1:response}->header('Content-Type', ${4:value});
+return ${1:response};
+$0]]></content>
+    <tabTrigger>lresponse</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

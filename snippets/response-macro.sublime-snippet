@@ -1,0 +1,8 @@
+<snippet>
+    <content>
+        <![CDATA[Response::macro('${1:name}', function(${2:value}){
+        return Response::make(${3:value}${4:, ${5:200}});
+        });$0]]></content>
+    <tabTrigger>lresponsemacro</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>
