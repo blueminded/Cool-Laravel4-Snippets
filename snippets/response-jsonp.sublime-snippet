@@ -3,4 +3,5 @@
         <![CDATA[return Response::json(['${1:key}'=>'${2:value}'])->setCallback(Input::${3:get}('${4:callBack}'));$0]]></content>
     <tabTrigger>lresponsejsonp</tabTrigger>
     <scope>source.php, text.html</scope>
+    <description>Create A JSONP Response</description>
 </snippet>

@@ -3,4 +3,5 @@
         <![CDATA[return Response::view('${1:response}')->header('Content-type', ${2:type});$0]]></content>
     <tabTrigger>lresponseview</tabTrigger>
     <scope>source.php, text.html</scope>
+    <description>Return a new view response from the application.</description>
 </snippet>

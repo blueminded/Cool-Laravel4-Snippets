@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[Route::model('${1:route}', '${2:Model}');$0]]></content>
+    <tabTrigger>lroutemodel</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

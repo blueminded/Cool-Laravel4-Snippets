@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[View::creator(['${1:view-name}'], function(${2:view})
+{
+    ${2:view}->with('${3:key}', ${4:value});
+});$0]]></content>
+    <tabTrigger>lviewcreator</tabTrigger>
+    <scope>source.php, text.html</scope>
+    <description>View creators work almost exactly like view composers; however, they are fired immediately when the view is instantiated.</description>
+</snippet>

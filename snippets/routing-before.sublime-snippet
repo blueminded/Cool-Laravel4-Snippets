@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[Route::${1:get}('${2:route-name}', ['before'=>'${3:filter-name}', function(){
+    <content><![CDATA[Route::${1:get}('${2:route-name}', ['before'=>'${3:filter1|filter2}', function(){
     return ${4:value};
 }]);$0]]></content>
     <tabTrigger>lroutebefore</tabTrigger>

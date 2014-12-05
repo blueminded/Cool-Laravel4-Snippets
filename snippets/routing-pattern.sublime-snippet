@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[Route::pattern('${1:var}', '${2:[0-9]+}');$0]]></content>
+    <tabTrigger>lroutepattern</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

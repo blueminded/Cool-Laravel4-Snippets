@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[View::composer(['${1:view-name}'], function(${2:view})
+{
+    ${2:view}->with('${3:key}', ${4:value});
+});$0]]></content>
+    <tabTrigger>lviewcomposer</tabTrigger>
+    <scope>source.php, text.html</scope>
+    <description>View composers are callbacks or class methods that are called when a view is rendered</description>
+</snippet>

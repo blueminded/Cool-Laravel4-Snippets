@@ -3,8 +3,10 @@
         <![CDATA[
 ${1:response} = Response::make(${2:some text here}, ${3:statusCode});
 ${1:response}->header('Content-Type', ${4:value});
+${5:${1:response}->withCookie(Cookie::make(${6:'key'}, ${7:'value'}));}
 return ${1:response};
 $0]]></content>
     <tabTrigger>lresponse</tabTrigger>
     <scope>source.php, text.html</scope>
+    <description>Return a new response from the application</description>
 </snippet>

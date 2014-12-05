@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[URL::to('${1:path}'${2:,[${3:'foo','var'}],${4:secure(true/false)}})$0]]></content>
+    <tabTrigger>lurlto</tabTrigger>
+    <scope>source.php, text.html</scope>
+    <description>Generate a absolute URL to the given path</description>
+</snippet>
