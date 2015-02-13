@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[HTML::decode(${1:name});$0]]></content>
+    <tabTrigger>lhtmldecode</tabTrigger>
+    <scope>source.php, text.html</scope>
+    <description>Convert entities to HTML characters.</description>
+</snippet>

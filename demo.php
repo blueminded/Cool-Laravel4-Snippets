@@ -17,3 +17,10 @@ View::creator(['view-name'], function(view)
 {
     view->with('key', value);
 });
+Input::hasFile('key');
+
+Input::file('key')->getRealPath();
+Input::file('key')->move($dest, 'sdfksdfkjsdf');
+
+HTML::script('js/asdasda.js');
+{{HTML::script(js/myfile.js,['key'=>'value']);}}
