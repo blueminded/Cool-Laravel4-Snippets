@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[{{HTML::ol(${1:['item1', 'item2']}${2:,['class'=>'my-class']});}}$0]]></content>
+    <tabTrigger>lhtmlol</tabTrigger>
+    <scope>source.php, text.html</scope>
+    <description>Generate an ordered list of items</description>
+</snippet>
