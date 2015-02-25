@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[Cookie::queue('${1:key}','${2:default}', '${3:minutes}');$0]]></content>
+    <tabTrigger>lcookiequeue</tabTrigger>
+    <scope>source.php</scope>
+    <description>Set a cookie before a response has been created</description>
+</snippet>
